@@ -8,6 +8,7 @@
 body{
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
+    background-image: url(img/background\ body.png);
     color: #333;
 }
 .container {
@@ -61,8 +62,18 @@ body{
 }
 .content .penulis a{
     color: salmon;
+    text-decoration: none;
 }
 .content p {
     margin-bottom: 20px;
     font-size: 13px;
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+.footer .copyright {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }
