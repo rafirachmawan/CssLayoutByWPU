@@ -49,24 +49,35 @@ body{
     /* border-top: 5px solid salmon; */
     border-bottom: 5px solid skyblue;
 }
-.content{
+.main{
+    width: 600px;
     padding: 20px;
+    box-sizing: border-box;
+    float: left;
 }
-.content h2{
+.main h2{
     font-size: 28px;
     font-weight: bold;
 }
-.content .penulis{
+.main .penulis{
     font-size: 11px;
     margin-top: -5px;
 }
-.content .penulis a{
+.main .penulis a{
     color: salmon;
     text-decoration: none;
 }
-.content p {
+.main p {
     margin-bottom: 20px;
     font-size: 13px;
+}
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+.sidebar img{
+    width: 70px;
 }
 .footer{
     background-color: black;
@@ -76,4 +87,17 @@ body{
     color: #eaeaea;
     text-align: center;
     font-size: 12px;
+}
+/* micro clearix  */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
 }
